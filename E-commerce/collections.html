@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop all seeds &#8212; SeedNest</title>
+  <meta name="description" content="Browse non-GMO vegetable, herb, microgreen, tree and bamboo seeds. Free shipping over &#8377;499 and a 98% germination guarantee on every pack.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/dark.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#127793;</text></svg>">
+</head>
+<body class="page" data-theme="dark" data-page="collections">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-chrome="header"></div>
+
+  <main id="main">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a><span>/</span><span data-crumb>All seeds</span>
+      </nav>
+    </div>
+
+    <section class="section--tight">
+      <div class="wrap">
+        <p class="eyebrow">Collection</p>
+        <h1 data-title>All seeds</h1>
+        <p class="lede" style="margin-top:16px" data-blurb>Every variety we stock &#8212; non-GMO, open pollinated and germination tested batch by batch.</p>
+
+        <div class="toolbar">
+          <div style="position:relative;flex:1 1 260px;max-width:360px">
+            <label class="visually-hidden" for="q">Search seeds</label>
+            <input class="field" id="q" type="search" placeholder="Search by name, e.g. tomato" data-search autocomplete="off">
+          </div>
+          <label class="visually-hidden" for="sort">Sort by</label>
+          <select class="select" id="sort" data-sort>
+            <option value="popular">Most popular</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="discount">Biggest discount</option>
+            <option value="name">Name A&#8211;Z</option>
+          </select>
+          <span class="card__meta" style="margin-left:auto" data-count></span>
+        </div>
+
+        <div class="chiprow" style="margin-bottom:36px" data-filters></div>
+
+        <div class="grid grid--4" data-results></div>
+        <div data-empty hidden>
+          <div class="empty">
+            <h2>No seeds match that</h2>
+            <p>Try a different word, or clear the filters to see everything we stock.</p>
+            <button class="btn" type="button" data-clear>Clear filters</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-chrome="footer"></div>
+
+  <script src="assets/js/catalog.js"></script>
+  <script src="assets/js/store.js"></script>
+  <script src="assets/js/collections.js"></script>
+</body>
+</html>
